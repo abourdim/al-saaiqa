@@ -705,9 +705,11 @@
 
   // ═══ PANEL TOGGLE ═══
   function toggleNarratorPanel() {
+    console.log('[Narrator] toggleNarratorPanel called');
     const panel = document.getElementById('narratorPanel');
-    if (!panel) return;
+    if (!panel) { console.log('[Narrator] panel not found!'); return; }
     panel.classList.toggle('hidden');
+    console.log('[Narrator] panel hidden:', panel.classList.contains('hidden'));
     if (!panel.classList.contains('hidden')) {
       updateLabels();
       populateVoiceSelect();
