@@ -92,10 +92,10 @@
     },
     en: {
       appTitle: 'The Thunderbolt',
-      homeTitle: "Today's Bitter Truth",
+      homeTitle: "Today\'s Bitter Truth",
       homeSubtitle: 'One truth that changes daily — reflect on it',
-      dailyLabel: "Today's Bitter Truth",
-      dailyThunderbolt: "Today's Thunderbolt — tap to read",
+      dailyLabel: "Today\'s Bitter Truth",
+      dailyThunderbolt: "Today\'s Thunderbolt — tap to read",
       shareBtn: 'Share',
       shareEssay: 'Share',
       bookmarkAdd: 'Save',
@@ -220,7 +220,7 @@
       topicImperialism: 'Imperialisme culturel',
       topicWeakness: 'Faiblesse interne',
       disclaimerTitle: '⚠️ Avertissement',
-      disclaimerText: "Je ne suis pas un savant. C'est un effort humble d'un parent musulman. Contenu du livre et de sources islamiques fiables. Ce n'est pas une fatwa. Consultez toujours des savants qualifies.",
+      disclaimerText: "Je ne suis pas un savant. C'est un effort humble d\'un parent musulman. Contenu du livre et de sources islamiques fiables. Ce n'est pas une fatwa. Consultez toujours des savants qualifies.",
       sourcesTitle: '📖 Sources',
       source1: 'La Verite Amere — Mohammed al-Ghazali (6 volumes)',
       source2: "Sayd al-Khatir — Ibn al-Jawzi",
@@ -354,7 +354,7 @@
     },
     {
       id: 11, cat: 'women', emoji: '⛓️',
-      title: { ar: 'الإسلام حرّر المرأة والمسلمون أعادوا سجنها', en: 'Islam Liberated Women — Muslims Re-Imprisoned Them', fr: "L'Islam a libere les femmes — les musulmans les ont re-emprisonnees" },
+      title: { ar: 'الإسلام حرّر المرأة والمسلمون أعادوا سجنها', en: 'Islam Liberated Women — Muslims Re-Imprisoned Them', fr: "L\'Islam a libere les femmes — les musulmans les ont re-emprisonnees" },
       truth: { ar: 'جاء الإسلام فأعطى المرأة حقوقًا لم تحلم بها أوروبا إلا بعد قرون. ثم جاء المسلمون وسلبوها ما أعطاها الله باسم الله.', en: 'Islam gave women rights that Europe didn\'t dream of for centuries. Then Muslims took away what God gave her — in the name of God.', fr: 'L\'Islam a donne aux femmes des droits dont l\'Europe n\'a reve que des siecles plus tard. Puis les musulmans leur ont enleve ce que Dieu leur a donne — au nom de Dieu.' },
       bitter: { ar: 'لأن المتسلطين يكرهون أن يفقدوا أدوات السيطرة.', en: 'Because the oppressive hate losing their tools of control.', fr: 'Parce que les oppresseurs detestent perdre leurs outils de controle.' },
       cure: { ar: 'ادرس كيف عامل النبي ﷺ النساء. هناك تجد الإسلام الحقيقي، لا في عادات القرى.', en: 'Study how the Prophet treated women. There you\'ll find true Islam, not in village customs.', fr: 'Etudiez comment le Prophete traitait les femmes. La vous trouverez le vrai Islam, pas dans les coutumes des villages.' }
