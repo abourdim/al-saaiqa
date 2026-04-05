@@ -751,14 +751,14 @@
     var essay = essays[idx];
     var lang = currentLang;
 
-    document.getElementById('daily-number').textContent = '#' + essay.id;
-    document.getElementById('daily-title').textContent = essay.emoji + ' ' + essay.title[lang];
+    { const _e=document.getElementById('daily-number'); if(_e) _e.textContent='#' + essay.id; }
+    { const _e=document.getElementById('daily-title'); if(_e) _e.textContent=essay.emoji + ' ' + essay.title[lang]; }
 
     var truthLabel = i18n[lang].truthLabel || 'THE BITTER TRUTH';
     var bitterLabel = i18n[lang].bitterLabel || "WHY IT'S BITTER";
     var cureLabel = i18n[lang].cureLabel || 'THE CURE';
 
-    document.getElementById('daily-truth').innerHTML =
+    (document.getElementById('daily-truth')||{}).innerHTML=
       '<strong style="color:var(--accent)">\u26A1 ' + truthLabel + ':</strong>\n' + essay.truth[lang] +
       '\n\n<strong style="color:var(--accent)">\uD83D\uDC94 ' + bitterLabel + ':</strong>\n' + essay.bitter[lang] +
       '\n\n<strong style="color:var(--accent)">\uD83D\uDC8A ' + cureLabel + ':</strong>\n' + essay.cure[lang];
@@ -995,8 +995,8 @@
   function showDua() {
     var idx = Math.floor(Math.random() * duas.length);
     var dua = duas[idx];
-    document.getElementById('dua-arabic').textContent = dua.ar;
-    document.getElementById('dua-translation').textContent = dua[currentLang === 'ar' ? 'en' : currentLang];
+    { const _e=document.getElementById('dua-arabic'); if(_e) _e.textContent=dua.ar; }
+    { const _e=document.getElementById('dua-translation'); if(_e) _e.textContent=dua[currentLang === 'ar' ? 'en' : currentLang]; }
     document.getElementById('dua-modal').classList.add('show');
     playClick();
   }
